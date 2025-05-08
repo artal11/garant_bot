@@ -3,7 +3,7 @@ from aiogram.types import Message
 from aiogram.utils import executor
 import logging
 
-API_TOKEN = 'YOUR_BOT_TOKEN'  # Замените на свой токен от @BotFather
+API_TOKEN = '7111326832:AAH2M8UHYK1X2Mh_V_vwnO59vAx23ird6-U'  # Замените на свой токен от @BotFather
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
