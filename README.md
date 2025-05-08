@@ -1,11 +1,13 @@
-# Telegram Guarant Bot для Render
+# Telegram Guarant Bot
 
-## Установка и запуск на Render.com
+Функционал:
+- Профиль пользователя
+- Баланс и вывод
+- Рефералы
+- История сделок
+- Админ-панель (/addbalance user_id сумма)
 
-1. Залейте этот репозиторий на GitHub
-2. Перейдите на https://render.com
-3. Создайте новый Web Service, привязав репозиторий
-4. Настройки:
-   - Build Command: `pip install -r requirements.txt`
-   - Start Command: `python bot.py`
-5. В файле `bot.py` замените `YOUR_BOT_TOKEN` на ваш токен от @BotFather
+## Установка:
+1. Замените `YOUR_BOT_TOKEN` в `bot.py`
+2. Установите зависимости: `pip install -r requirements.txt`
+3. Запустите бота: `python bot.py`
